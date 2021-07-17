@@ -1,3 +1,6 @@
+# This script will print basci details of the RHEL system just like cpu ram and disk uses and there mount point
+# You need to run this script with sudo privilege after giving executable permission
+
 if [[ "${UID}" -eq 0 ]]
 then
   echo ' '
