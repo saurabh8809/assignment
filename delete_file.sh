@@ -1,3 +1,6 @@
+# This Script will delete the file older than 48 hours from /home/ubuntu/audios/ directory
+# clone this script and give executable permission and run the script with sudo privilege
+
 if [[ "${UID}" -eq 0 ]]
 then
   echo ' '
